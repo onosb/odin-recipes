@@ -1,7 +1,26 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: antiquewhite;
+    box-sizing: border-box;
 }
+
+#odin-header{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+.recipe-links li::marker{
+    color: green;
+   
+    
+}
+.recipe-links a{
+    font-size: 28px;
+    font-weight: bold;
+    color: green;
+}
+
+
 .pics{
     height: auto;
     width: 310px;
